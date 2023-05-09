@@ -1,0 +1,92 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .logo {
+    width: 5%;
+    height:auto; 
+    max-width:300px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navItem {
+    margin-left: 20px;
+  }
+  
+  .menu {
+    display: none;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav {
+      display: none;
+    }
+  
+    .menu {
+      display: block;
+    }
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .heroImg {
+    flex-basis: 40%;
+  }
+  
+  .heroImg img {
+    width: 100%;
+  }
+  
+  .heroData {
+    flex-basis: 55%;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .heroData h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .heroData p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
